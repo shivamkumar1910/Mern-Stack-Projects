@@ -105,9 +105,3 @@ Key dependencies include:
 - [React Documentation](https://react.dev)
 - [Socket.io Documentation](https://socket.io/docs/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-
----
-
-**Author**: Your Name  
-**Last Updated**: 2026-08-14  
-**Version**: 1.0.0

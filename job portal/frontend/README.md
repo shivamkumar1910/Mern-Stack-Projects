@@ -327,23 +327,4 @@ Deploy the contents of the `dist` folder to:
 - [Axios Documentation](https://axios-http.com/)
 - [ESLint Documentation](https://eslint.org/docs/)
 
-## 🤝 Contributing Guidelines
 
-1. Create a new branch for your feature: `git checkout -b feature/YourFeature`
-2. Make your changes and ensure the app builds successfully
-3. Run linting: `npm run lint`
-4. Test your changes in the browser
-5. Commit with clear messages: `git commit -m 'Add YourFeature'`
-6. Push and create a Pull Request
-7. Ensure all checks pass before merging
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-**Author**: Your Name  
-**Last Updated**: 2026-08-14  
-**Version**: 1.0.0  
-**Status**: Active Development
