@@ -1,10 +1,10 @@
-# Projects
+# Full-Stack Projects
 
-Welcome to the Commit Projects repository! This collection showcases multiple full-stack web applications built using the **MERN Stack** (MongoDB, Express, React, Node.js).
+Welcome to the Commit Projects repository! This collection showcases multiple full-stack web applications built with React, Node.js, Express, MongoDB, PostgreSQL, and related modern web technologies.
 
 ## 📚 Projects Overview
 
-All projects in this repository are built using the MERN stack architecture, demonstrating best practices for building scalable, modern web applications.
+The projects demonstrate different approaches to building scalable, modern web applications, including MERN applications, real-time features, TypeScript, Prisma, and third-party authentication and workflow services.
 
 ### 1. **Backend Ledger**
 A comprehensive backend ledger system demonstrating Node.js and Express.js fundamentals. This project focuses on building robust server-side architecture.
@@ -67,11 +67,20 @@ A social networking platform inspired by Twitter with features for posting tweet
 - **Database**: MongoDB
 - **Location**: `twitter clone/`
 
+### 9. **Project Management System**
+A SaaS-style project management platform for organizations to manage projects, tasks, team members, deadlines, and notifications.
+- **Tech Stack**: React + TypeScript + Vite + Express + Prisma
+- **Authentication**: Clerk organizations with role-based access
+- **Database**: PostgreSQL
+- **Background Workflows**: Inngest + Resend
+- **Location**: `Project Managment System/`
+
 ## 🛠️ MERN Stack Technology
 
-All projects utilize the following core technologies:
+Most projects use the following core technologies:
 
-- **MongoDB**: NoSQL database for flexible data storage
+- **MongoDB**: NoSQL database used by the MERN applications
+- **PostgreSQL**: Relational database used by the Project Management System
 - **Express.js**: Web application framework for Node.js
 - **React**: JavaScript library for building user interfaces
 - **Node.js**: JavaScript runtime for server-side development
@@ -81,11 +90,13 @@ All projects utilize the following core technologies:
 - **TypeScript**: Type-safe JavaScript (Food App)
 - **Tailwind CSS**: Utility-first CSS framework
 - **Vite**: Modern frontend build tool
+- **Prisma**: Type-safe ORM used by the Project Management System
+- **Clerk**: Authentication and organization management used by the Project Management System
 - **Postman**: API testing and documentation
 
 ## 📁 Project Structure
 
-Each project typically follows this structure:
+MERN projects typically follow this structure:
 ```
 project-name/
 ├── backend/              # Node.js + Express server
@@ -112,6 +123,8 @@ To get started with any of these projects:
 4. Configure environment variables (database connection, API endpoints, etc.)
 5. Start the backend server
 6. Start the frontend development server
+
+The Project Management System has its own setup instructions in `Project Managment System/README.md` and uses separate `client/` and `server/` workspaces.
 
 ## 📝 Notes
 
